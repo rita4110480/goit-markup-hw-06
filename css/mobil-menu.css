@@ -2,35 +2,34 @@
    display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed; 
+   position: relative;  
     top: 0; 
     left: 0;  
     width: 100%;
     height: 100%;
-    background: #fff;    
-    z-index: 999;
-   
-}
-    /*если меню скрыто*/
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-
-.mobil-menu-container {
-    position: relative;
+    background: #fff; 
+        z-index: 999;
     padding-block: 72px 40px;
 padding-inline: 16px;
+   
+}
+ /*если меню скрыто*/
+/*background: #e7e9fc*/
+.mobil-menu .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.mobil-menu-container {
+    position: relative;   
 display: flex;
 flex-direction: column;
 width: 320px;
-max-height: 80vh;
-overflow-y: auto;
-background: #e7e9fc;
-
-
+height: 640px;
 
 
 }
+
 .mobil-menu-button {
     position: absolute;
     top: 24px;
@@ -43,13 +42,11 @@ background: #e7e9fc;
     border-radius: 24px;
     width: 24px;
     height: 24px;
-    background-color: #e7e9fc;   
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property:  background-color; 
-    fill: #2e2f42;   
+    background-color: #e7e9fc; 
+       fill: #2e2f42;   
   
 }
-
+/*transition
 .mobil-menu-button:hover,
 .mobil-menu-button:focus {
     background-color: #404BBF;
@@ -63,17 +60,22 @@ background: #e7e9fc;
 .mobil-menu-button:focus .mobil-menu-icon-cross {
     fill: #fff;
 }
-
+*/
 .mobil-menu-nav { 
     width: 151px;
 height: 200px;
 margin-bottom: 168px;
 margin-top: 24px;
 margin-left: 16px;
+
 }
-.mobil-menu-icon-cross {
-}
+
 .mobil-menu-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 151px;
+height: 200px;
 }
 .mobil-menu-link-item {
     font-family: "Roboto", sans-serif;
@@ -85,15 +87,13 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
 
- display: flex;
-    gap: 40px;
 }
-
 
 .mobil-menu-link-item .current {
   color: #404bbf;
 }
 .mobil-menu-link {
+    
 }
 .container-contacts {
     width: 288px;
@@ -113,11 +113,13 @@ margin-bottom: 48px;
 font-style: normal;
 }
 .mobil-menu-contact-list {
-}
-.mobil-menu-contact-item {
-    display: flex;
+   display: flex;
     flex-direction: column;
     gap: 24px;
+}  
+s
+.mobil-menu-contact-item {
+   
 }
 
 

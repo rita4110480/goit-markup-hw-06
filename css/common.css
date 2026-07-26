@@ -41,9 +41,27 @@ button {
     clip-path: inset(100%);
     margin: -1px;
 }
-.container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
  
+.container {    
+width: 320px;   
+margin: 0 auto;
+  outline: 2px solid red;
+    outline-offset: -2px;
+}
+@media screen and (min-width: 768px) {
+    .container {    
+max-width: 768px;
+padding-block: 0px;
+padding-inline: 16px;
+    }
+}
+@media screen and (min-width: 1158px) {
+   .container {    
+padding-block: 0px;
+padding-inline: 15px;
+max-width: 1158px;
+} 
+} 
+
+
+
