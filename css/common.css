@@ -48,14 +48,14 @@ margin: 0 auto;
   outline: 2px solid red;
     outline-offset: -2px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767.98px) {
     .container {    
 max-width: 768px;
 padding-block: 0px;
 padding-inline: 16px;
     }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1157.98px) {
    .container {    
 padding-block: 0px;
 padding-inline: 15px;
