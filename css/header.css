@@ -1,44 +1,51 @@
-/*mobile*/
-.header {
-  padding: 16px;
+.header > .container {
+  display: flex;
+  align-items: center;
+    padding: 16px;
 background: #fff;
-
 }
+
 @media only screen and (min-width: 768px) {
-  .header {
+  .header > .container {
     padding-block: 0px;
 padding-inline: 16px;
-
-
   }
+
 }
 @media only screen and (min-width: 1158px) {
-  .header {
+  .header > .container {
 padding-inline: 15px;
 }
 }
 
-.header >  .container {
-  display: flex;
-  align-items: center;
-}
 
 @media only screen and (max-width: 767.98px) {
   .header-nav {
     display: none;
   }
 }
-
-@media only screen and (min-width: 1157.98px) {
-  .header-nav {
-     margin-left: 76px;
-  margin-right: 340px;
+@media only screen and (max-width: 767.98px) {
+  .address {
+    display: none;
   }
 }
 @media only screen and (min-width: 767.98px) {
+  .header-button .header-button-icon{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 767.98px) {
     .header-nav {
-  margin-left: 120px;
-  margin-right: 129px;
+        margin-left: auto;
+        margin-right: 129px;
+    }
+}
+/*120px*/
+@media only screen and (min-width: 1157.98px) {
+  .header-nav {
+     margin-left: auto;
+  margin-right: 340px;
   }
 }
 
@@ -63,7 +70,7 @@ color: #2e2f42;
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+     font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
@@ -71,30 +78,65 @@ color: #2e2f42;
   color: #4d5ae5;
   background-color: #fff;
   text-transform: uppercase;
-  
+  width: 115px;
+height: 24px;
 }
+
 .logo-dark {
   text-transform: uppercase;
   color: #2e2f42;
   font-size: 18px;
 }
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 5px;
+padding-inline: 4px;
+width: 24px;
+height: 24px;
+margin-left: auto;
+padding: 0;
+border: none;
+background-color: transparent;
+
+}
+.header-button-icon {
+  fill: #2e2f42;
+}
+@media only screen and (min-width: 768px) {
+  .contact-list {
+     display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+}
+
+@media only screen and (min-width: 1158px) {
+  .contact-list {
+     display: flex;
+     flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+  }
 
 
-
-
-
-
-
-.email,
-.phone {
+.contact-link {
+  font-weight: 400;
+  font-size: 16px;  
+  text-decoration: none;
+  font-style: normal;
+  color: #434455;
+  line-height: 1.5;
+  margin-left: auto;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .link:hover,
 .link:focus,
-.email:hover,
-.email:focus,
-.phone:hover,
-.phone:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 .current {

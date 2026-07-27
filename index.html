@@ -20,11 +20,18 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="header" class="header">
+    <header id="header" class="header hide">
       <div class="container">
         <a href="./index.html" class="logo"
           >Web<span class="logo-dark">Studio</span>
         </a>
+        <button class="header-button"  type="button">
+          <svg class="header-button-icon" width="17" height="15">
+            <use href="./images/icons.svg#lattice">
+
+            </use>
+          </svg>
+        </button>
         <nav class="header-nav">
           <ul class="nav-list">
             <li class="link-item">
@@ -40,21 +47,21 @@
         </nav>
         <address class="address">
           <ul class="contact-list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="email"
+            <li class="contact-item">
+              <a href="mailto:info@devstudio.com" class="contact-link"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+110001111111" class="phone">+11 (000) 111-11-11</a>
+              <a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
       </div>
     </header>
     <main>
-      <section id="hero" class="hero hide">
-        <div class="container">
+      <section id="hero" class="hero">
+        <div class="hero-container">
           <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
@@ -482,7 +489,7 @@
             </div>
             </div>
     </footer>
-    <div class="mobil-menu hide">      
+    <div class="mobil-menu is-open hide">      
       <div class="mobil-menu-conteiner">  
         <button class="mobil-menu-button">
          <svg class="mobil-menu-icon-cross" width="8" height="8">
