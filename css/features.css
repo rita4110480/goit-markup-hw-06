@@ -1,22 +1,19 @@
 .features {
     padding-block: 96px;
 padding-inline: 0px;
-max-width: 320px;
 background: #fff;
 }
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
   .features {
    padding-block: 96px;
 padding-inline: 0px;
-max-width: 768px;
   }
 } 
 
-@media only screen and (min-width: 1157.98px) {
+@media only screen and (min-width: 1158px) {
   .features {
    padding-block: 120px;
 padding-inline: 0px;
-max-width: 1158px;
   }
 } 
 
@@ -30,13 +27,13 @@ outline: 2px solid red;
     outline-offset: -2px;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
   .features-container {
 max-width: 768px;
   }
 } 
 
-@media only screen and (min-width: 1157.98px) {
+@media only screen and (min-width: 1158px) {
   .features-container {
 padding-block: 0;
 padding-inline: 15px;
@@ -59,14 +56,14 @@ margin-bottom: 8px;
 width: 100%;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
    .features-subtitle {
     text-align: left;
     
   }
 }
 
-@media only screen and (min-width: 1157.98px) {
+@media only screen and (min-width: 1158px) {
    .features-subtitle {
      font-weight: 500;
   font-size: 20px;
@@ -82,12 +79,12 @@ line-height: 1.5;
 color: #434455;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
    .features-text {
     
   }
 }
-@media only screen and (min-width: 1157.98px) {
+@media only screen and (min-width: 1158px) {
    .features-text {
       font-weight: 400;
      margin: 0;
@@ -101,7 +98,7 @@ color: #434455;
   gap: 72px;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
   .features-list  {
   flex-direction: row; 
   flex-wrap: wrap;
@@ -110,7 +107,7 @@ color: #434455;
   }
 }
 
-@media only screen and (min-width: 1157.98px) {
+@media only screen and (min-width: 1158px) {
   .features-list  {
   flex-wrap: nowrap;
   gap: 24px;
@@ -121,19 +118,19 @@ color: #434455;
     width: 100%;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
   .features-item  {
   width: calc((100% - 24px) / 2);
   }
 }
 
-@media only screen and (min-width: 1157.98px) {
+@media only screen and (min-width: 1158px) {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
 }
 
-@media only screen and (min-width: 1157.98px) {
+@media only screen and (min-width: 1158px) {
 .features-icon {
   display: flex;
   gap: 24px;
