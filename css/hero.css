@@ -12,18 +12,19 @@ background: #2e2f42;
 padding-block: 0px;
 padding-inline: 15px;
 
+
  background-image:
     linear-gradient(
       180deg,
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    url("../images/hero-bg.png");
+    url("../images/hero-bg@1x.jpg"), 
+    url("../images/hero-bg@2x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
- outline: 2px solid red;
-    outline-offset: -2px;
+
 }
 
 @media only screen and (min-width: 767.98px) {
