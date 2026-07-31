@@ -46,8 +46,8 @@ max-width: 768px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 64px;
+  row-gap: 64px;
+  column-gap: 24px;
 }
 .team-item {  
   width: calc((100% - 24px) / 2);
