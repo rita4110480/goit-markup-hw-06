@@ -1,4 +1,4 @@
-.mobil-menu {
+.mobile-menu {
    display: flex;
     justify-content: center;
     align-items: center;
@@ -17,12 +17,12 @@ padding-inline: 16px;
     pointer-events: none;
 }
 
-.mobil-menu .is-open {
+.mobile-menu .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
-.mobil-menu-container {
+.mobile-menu-container {
     position: relative;   
 display: flex;
 flex-direction: column;
@@ -32,7 +32,7 @@ height: 640px;
 
 }
 
-.mobil-menu-button {
+.mobile-menu-button {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -48,7 +48,7 @@ height: 640px;
        fill: #2e2f42;   
   
 }
-.mobil-menu-nav { 
+.mobile-menu-nav { 
     width: 151px;
 height: 200px;
 margin-bottom: 168px;
@@ -57,29 +57,27 @@ margin-left: 16px;
 
 }
 
-.mobil-menu-nav-list {
+.mobile-menu-nav-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 151px;
 height: 200px;
 }
-.mobil-menu-link-item {
+.mobile-menu-link-item {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
-
-/* line-height: 40px; */ 
 line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
 
 }
 
-.mobil-menu-link-item .current {
+.mobile-menu-link-item .current {
   color: #404bbf;
 }
-.mobil-menu-link {
+.mobile-menu-link {
     
 }
 .container-contacts {
@@ -87,7 +85,7 @@ color: #2e2f42;
 height: 160px;
 margin-left: 16px;
 }
-.mobil-menu-address {
+.mobile-menu-address {
    font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -99,41 +97,41 @@ color: #434455;
 margin-bottom: 48px;
 font-style: normal;
 }
-.mobil-menu-contact-list {
+.mobile-menu-contact-list {
    display: flex;
     flex-direction: column;
     gap: 24px;
 }  
-s
-.mobil-menu-contact-item {
+
+/*.mobile-menu-contact-item {
    
 }
 
 
-.mobil-menu-email {
-}
-.mobil-menu-phone {
+.mobile-menu-email {
+}*/
+.mobile-menu-phone {
    
 color: #4d5ae5;
 }
 
-.mobil-menu-contact {
+.mobile-menu-contact {
    margin-top: 48px 16px 40 px; 
 }
-.mobil-menu-social-list {
+.mobile-menu-social-list {
     display: flex;
   gap: 16px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.mobil-menu-social-item {
+.mobile-menu-social-item {
     border-radius: 20px;
    width: 40px;
   height: 40px;  
    
 }
-.mobil-menu-social-icon-link {
+.mobile-menu-social-icon-link {
      display: flex;
   justify-content: center;
   align-items: center;
@@ -144,6 +142,6 @@ color: #4d5ae5;
   color: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }  
-.mobil-menu-social-icon {
+.mobile-menu-social-icon {
   fill: currentColor;  
 }

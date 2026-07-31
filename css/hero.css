@@ -12,6 +12,8 @@ background: #2e2f42;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 @media (min-resolution: 2dppx) {
   .hero {

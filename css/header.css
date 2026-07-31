@@ -28,6 +28,7 @@
   text-transform: uppercase;
   width: 115px;
 height: 24px;
+padding: 16px 0;
 
 }
 
@@ -73,8 +74,8 @@ background-color: transparent;
 
 .link:hover,
 .link:focus,
-.contact-link:hover,
-.contact-link:focus {
+.contact-link-mail:hover,
+.contact-link-tel:focus {
   color: #404bbf;
 }
 .current {
@@ -118,8 +119,7 @@ background-color: transparent;
     display: none;
   }
   .header-nav {
-    /*margin-left: auto;
-    margin-right: 129px;*/
+   
     margin-left: 120px;
   }
   .header-nav,
@@ -152,7 +152,7 @@ background-color: transparent;
 
       .contact-link-mail,
       .contact-link-tel {             
-     font-weight: 400px;
+     font-weight: 400;
      font-size: 12px;    
      line-height: 1.16;
      letter-spacing: 0.04em;
