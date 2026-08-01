@@ -294,6 +294,7 @@ max-width: 1158px;
 }
 .footer-container {
   padding: 0;
+  column-gap: 0;
 }
 
 .container-social-link {

@@ -110,7 +110,10 @@ background-color: transparent;
 .container {
   max-width: 768px;
 }
-
+.header-container {
+  justify-content: flex-start;
+  
+}
   
   .header-button {
     display: none;
