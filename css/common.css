@@ -25,10 +25,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
-button {
-    font-family: inherit;
-    cursor: pointer;
-}
+
 .sr-only {
     position: absolute;
     white-space: nowrap;
