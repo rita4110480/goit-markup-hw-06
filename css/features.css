@@ -1,53 +1,24 @@
 .features {
-    padding-block: 96px;
-padding-inline: 0px;
-background: #fff;
+  padding-block: 96px;
+  padding-inline: 0px;
+  background: #fff;
 }
-@media only screen and (min-width: 768px) {
-  .features {
-   padding-block: 96px;
-padding-inline: 0px;
-  }
-} 
-
-@media only screen and (min-width: 1158px) {
-  .features {
-   padding-block: 120px;
-padding-inline: 0px;
-  }
-} 
 
 .features-container {
-padding-block: 0px;
-padding-inline: 16px;
-/*width: 100%;*/
+  padding-block: 0px;
+  padding-inline: 16px;
+  /*width: 100%;*/
 max-width: 320px;
 margin: 0 auto;
-outline: 2px solid red;
-    outline-offset: -2px;
+
 }
 
-@media only screen and (min-width: 768px) {
-  .features-container {
-max-width: 768px;
-  }
-} 
-
-@media only screen and (min-width: 1158px) {
-  .features-container {
-padding-block: 0;
-padding-inline: 15px;
-max-width: 1158px;
-
-  }
-} 
-
 .features-icon {
-    display: none;
+  display: none;
 }
 
 .features-subtitle {
-font-weight: 700;
+  font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -56,40 +27,12 @@ margin-bottom: 8px;
 width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-   .features-subtitle {
-    text-align: left;
-    
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-   .features-subtitle {
-     font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  
-  }
-}
 .features-text {
-font-weight: 500;
-font-size: 16px;
- width: 264px;
-line-height: 1.5;
-color: #434455;
-}
-
-@media only screen and (min-width: 768px) {
-   .features-text {
-    
-  }
-}
-@media only screen and (min-width: 1158px) {
-   .features-text {
-      font-weight: 400;
-     margin: 0;
-  
-  }
+  font-weight: 500;
+  font-size: 16px;
+  width: 264px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 .features-list {
@@ -98,53 +41,91 @@ color: #434455;
   gap: 72px;
 }
 
-@media only screen and (min-width: 768px) {
-  .features-list  {
-  flex-direction: row; 
-  flex-wrap: wrap;
-  row-gap: 72ppx;
-  column-gap: 24px;
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-  .features-list  {
-  flex-wrap: nowrap;
-  gap: 24px;
-  }
-}
-
 .features-item {
-    width: 100%;
+  width: 100%;
 }
+  
 
 @media only screen and (min-width: 768px) {
-  .features-item  {
-  width: calc((100% - 24px) / 2);
+  .features {
+    padding-block: 96px;
+    padding-inline: 0px;
   }
-}
+  
+  .features-container {
+    max-width: 768px;
+  }
+  
+    .features-subtitle {
+      text-align: left;
+      
+    }
+    
+    .features-text {
+      
+    }
+    
+          .features-list  {
+            flex-direction: row; 
+            flex-wrap: wrap;
+            row-gap: 72px;
+            column-gap: 24px;
+          }
+          
+                      .features-item  {
+            width: calc((100% - 24px) / 2);
+            }
+                 
+  } 
+  
+  @media only screen and (min-width: 1158px) {
+  .features {
+   padding-block: 120px;
+padding-inline: 0px;
+  }
+ 
+    .features-container {
+  padding-block: 0;
+  padding-inline: 15px;
+  max-width: 1158px;
+  
+    }
+       
+     .features-subtitle {
+       font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    
+    }
+    
+     .features-text {
+        font-weight: 400;
+       margin: 0;
+    
+    }
+    
+     .features-list  {
+    flex-wrap: nowrap;
+    gap: 24px;
+    }
 
-@media only screen and (min-width: 1158px) {
-.features-item {
-  width: calc((100% - 72px) / 4);
-}
-}
+    .features-item {
+      width: calc((100% - 72px) / 4);
+    }
+      
+    .features-icon {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      justify-content: center;
+      width: 264px;
+      height: 112px;
+      margin-bottom: 8px;
+      background-color: #f4f4fd;
+      border: 1px solid #8e8f99;
+      border-radius: 4px;
+    } 
+  
+} 
 
-@media only screen and (min-width: 1158px) {
-.features-icon {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  justify-content: center;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-  background-color: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-}
-/*.feature-svg {
-  width: 64px;
-  height: 64px;
-}*/
-}
+
