@@ -16,8 +16,8 @@
 }
 
 .mobile-menu.is-open {
-    opacity: 1;
-    visibility: visible;
+    /*opacity: 1;
+    visibility: visible;*/
     pointer-events: auto;
     transform: translateY(0);
 }
